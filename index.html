@@ -151,7 +151,7 @@ footer{text-align:center;color:var(--sub);font-size:12px;margin-top:64px;padding
 
 <div class="modal" id="soonModal"><div class="mbox"><p id="soonMsg"></p><button class="btn" onclick="document.getElementById('soonModal').classList.remove('show')">확인</button></div></div>
 <div class="errfs" id="errfs"><div class="ec">ERR_STORY_HALTED</div><p>이야기를 불러오는 중 오류가 발생했습니다.</p><div class="es">code: 0x4E454C57 · stream interrupted</div><button class="btn" id="retry">다시 시도</button></div>
-<div class="modal" id="hiaModal" onclick="if(event.target===this)this.classList.remove('show')"><div class="mbox"><img src="novel/bbogeul_hiatus.png" alt="휴재"><p>잠시 쉬어갑니다 💤<br>다음 화에서 만나요.</p><button class="btn" type="button" onclick="document.getElementById('hiaModal').classList.remove('show')">닫기</button></div></div>
+<div class="modal" id="hiaModal" onclick="if(event.target===this)this.classList.remove('show')"><div class="mbox"><img src="novel/bbogeul_hiatus.png" alt="휴재"><p>잠시 쉬어갑니다 💤<br>다음 화에서 만나요.</p><a class="btn" href="https://www.plaitoon.com/ko/share/character/81eeb22c-f069-4f4e-a996-f16ce20539d6" target="_blank" rel="noopener" style="margin-right:8px">이어가기</a><button class="btn" type="button" onclick="document.getElementById('hiaModal').classList.remove('show')">닫기</button></div></div>
 <div class="player" id="player" hidden>
   <div class="pl-head"><b>♪ BGM</b><button class="btn" id="plClose" aria-label="닫기">✕</button></div>
   <div class="pl-main">
